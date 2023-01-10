@@ -20,12 +20,17 @@ array = [7, 1, 5, 3, 6, 4]
 # Sliding Window approch to find the best time to buy and sell
 
 
-def buySellStockSliding():
+def buySellStockSliding(sales):
+
+    l = len(sales)
+    r = len(sales)
+
+    for l, in zip()
 
 
-array = [7, 1, 5, 3, 6, 4]
+sales = [7, 1, 5, 3, 6, 4]
 
-buySellStockSliding
+buySellStockSliding(sales)
 
 
 # Will be working on this now
