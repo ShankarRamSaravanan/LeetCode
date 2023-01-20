@@ -10,8 +10,11 @@ def buySellStock(array):
                 res = max(res, profit)
     return res
 
+
 array = [7, 1, 5, 3, 6, 4]
 
+
+# just a push
 # buySellStock(array)
 # Sliding Window approch to find the best time to buy and sell
 
@@ -36,4 +39,3 @@ def buySellStockSliding(prices):
 sales = [7, 1, 5, 3, 6, 4]
 
 buySellStockSliding(sales)
-
