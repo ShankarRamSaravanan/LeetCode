@@ -8,10 +8,13 @@ def generateParenthesis(n):
             res.append("".join(stack))
             return
 
+
+
         if openN < n:
             stack.append("(")
             backtrack(openN + 1, closedN)
             stack.pop()
+
 
         if closedN < openN:
             stack.append(")")
